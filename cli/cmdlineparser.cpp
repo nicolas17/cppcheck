@@ -16,6 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include "cmdlineparser.h"
+
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -25,7 +27,6 @@
 #include "cppcheck.h"
 #include "timer.h"
 #include "settings.h"
-#include "cmdlineparser.h"
 #include "path.h"
 #include "filelister.h"
 

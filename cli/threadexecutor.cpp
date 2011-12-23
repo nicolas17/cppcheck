@@ -16,8 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "cppcheckexecutor.h"
 #include "threadexecutor.h"
+
+#include "cppcheckexecutor.h"
 #include "cppcheck.h"
 #include <iostream>
 #include <algorithm>

@@ -16,9 +16,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include "pathmatch.h"
+
 #include <algorithm>
 #include <ctype.h>      // Borland: tolower
-#include "pathmatch.h"
 
 PathMatch::PathMatch(const std::vector<std::string> &masks)
     : _masks(masks)

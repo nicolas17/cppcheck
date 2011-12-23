@@ -16,12 +16,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include "filelister.h"
+
 #include <cstring>
 #include <string>
 #include <cctype>
 #include <algorithm>
 #include <sstream>
-#include "filelister.h"
 #include "path.h"
 
 // This wrapper exists because Sun's CC does not allow a static_cast
